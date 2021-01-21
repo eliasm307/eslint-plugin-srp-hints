@@ -20,12 +20,13 @@ This rule has the following options that can be specified using an object:
 
 - `"minDescriptionContentLength"` (default `10`) enforces a minimum number of alpha-numeric characters the function comment must have, not including the mandatory prefix (defined in the `"descriptionPrefix"` option). This option is meant to make sure descriptions have sufficient detail.
 
-The default options are applied as an object as below:
+An example of applying options as an object is below:
 
 ```json
 "require-comment/function-description": ["warn", {
-  "minLines": 50,
-  "descriptionPrefix": "This function's responsibility is", "minDescriptionContentLength": 10
+  "minLines": 30,
+  "descriptionPrefix": "This function's responsibility is", 
+  "minDescriptionContentLength": 10
   }]
 ```
 
