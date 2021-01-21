@@ -1,36 +1,44 @@
 {
-	"name": "eslint-plugin-require-comment",
-	"version": "0.0.3_UNPUBLISHED",
-	"description": "ESLint plugin to require comments in certain cases",
+	"name": "eslint-plugin-srp-hints",
+	"version": "0.0.0",
+	"description": "ESLint plugin to offer hints for whether there might be an issue regarding the Single Responsibility Princible of SOLID software development.",
 	"keywords": [
 		"eslint",
 		"eslintplugin",
-		"eslint-plugin"
+		"eslint-plugin",
+		"plugin",
+		"comment",
+		"comments"
 	],
 	"author": "Elias Mangoro",
-	"main": "lib/index.js",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"lib"
+	],
+	"engines": {
+		"node": ">=0.10.0"
+	},
 	"scripts": {
 		"test": "mocha tests --recursive --color"
 	},
-	"homepage": "https://github.com/eliasm307/eslint-plugin-require-comment#readme",
+	"homepage": "https://github.com/eliasm307/eslint-plugin-srp-hints#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/eliasm307/eslint-plugin-require-comment.git"
+		"url": "git+https://github.com/eliasm307/eslint-plugin-srp-hints.git"
 	},
 	"bugs": {
-		"url": "https://github.com/eliasm307/eslint-plugin-require-comment/issues"
+		"url": "https://github.com/eliasm307/eslint-plugin-srp-hints/issues"
+	},
+	"peerDependencies": {
+		"eslint": ">=7.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.0.0",
+		"mocha": "^7.2.0"
 	},
 	"dependencies": {
 		"requireindex": "^1.1.0"
-	},
-	"peerDependencies": {
-		"eslint": ">=0.8.0"
-	},
-	"devDependencies": {
-		"mocha": "^7.2.0"
-	},
-	"engines": {
-		"node": ">=0.10.0"
 	},
 	"license": "MIT"
 }

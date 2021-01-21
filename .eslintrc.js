@@ -1,3 +1,4 @@
+// local eslint config for this project (not exported in package)
 module.exports = {
 	// parser: 'babel-eslint',
 	extends: ['eslint:recommended', 'airbnb', 'prettier'],
