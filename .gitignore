@@ -105,3 +105,4 @@ dist
 
 # vs code
 .vscode*/
+.vs/
