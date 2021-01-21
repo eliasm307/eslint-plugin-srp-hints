@@ -1,0 +1,36 @@
+{
+	"name": "eslint-plugin-require-comment",
+	"version": "0.0.3_UNPUBLISHED",
+	"description": "ESLint plugin to require comments in certain cases",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"author": "Elias Mangoro",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "mocha tests --recursive --color"
+	},
+	"homepage": "https://github.com/eliasm307/eslint-plugin-require-comment#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eliasm307/eslint-plugin-require-comment.git"
+	},
+	"bugs": {
+		"url": "https://github.com/eliasm307/eslint-plugin-require-comment/issues"
+	},
+	"dependencies": {
+		"requireindex": "^1.1.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=0.8.0"
+	},
+	"devDependencies": {
+		"mocha": "^7.2.0"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"license": "MIT"
+}
