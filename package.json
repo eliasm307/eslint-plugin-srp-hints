@@ -34,11 +34,9 @@
 		"eslint": ">=7.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^7.0.0",
+		"eslint": "^7.x",
 		"mocha": "^7.2.0"
 	},
-	"dependencies": {
-		"requireindex": "^1.1.0"
-	},
+	"dependencies": {},
 	"license": "MIT"
 }
