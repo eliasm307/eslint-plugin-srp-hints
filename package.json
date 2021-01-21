@@ -13,6 +13,7 @@
 	"author": "Elias Mangoro",
 	"main": "index.js",
 	"files": [
+		"index.js",
 		"lib"
 	],
 	"engines": {
@@ -30,14 +31,13 @@
 		"url": "https://github.com/eliasm307/eslint-plugin-srp-hints/issues"
 	},
 	"peerDependencies": {
-		"eslint": ">=0.8.0"
+		"eslint": ">=7.0.0"
 	},
 	"devDependencies": {
 		"mocha": "^7.2.0",
 		"eslint": "^7.0.0"
 	},
-	"dependencies": {
-		"requireindex": "^1.1.0"
+	"dependencies": { 
 	},
 	"license": "MIT"
 }
