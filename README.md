@@ -22,7 +22,7 @@ Add `srp-hints` to the plugins section of your `.eslintrc` configuration file. Y
 
 ```json
 {
-  "plugins": ["srp-hints"]
+	"plugins": ["srp-hints"]
 }
 ```
 
@@ -30,12 +30,12 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-  "rules": {
-    "srp-hints/function-description": 2
-  }
+	"rules": {
+		"srp-hints/function-description": 10
+	}
 }
 ```
 
 ## Supported Rules
 
-- [function-description]()
+- [function-description](https://github.com/eliasm307/eslint-plugin-srp-hints/blob/main/docs/rules/function-description.md)
