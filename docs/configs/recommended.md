@@ -1,9 +1,5 @@
 # eslint-config-srp-hints
 
-// todo tweak this documentation
-
-[![NPM version](https://img.shields.io/npm/v/eslint-config-srp-hints.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-srp-hints)
-
 This ESLint Config aims to offer hints for whether there might be an issue regarding the Single Responsibility Princible of SOLID software development.
 
 **NOTE**: This config is in development and rules might be modified or added over time to better meet the overall goal.
@@ -28,7 +24,7 @@ Add `srp-hints` to the extends section of your `.eslintrc*` configuration file. 
 
 ```json
 {
-  "extends": ["srp-hints"]
+  "extends": [ "srp-hints" ]
 }
 ```
 
