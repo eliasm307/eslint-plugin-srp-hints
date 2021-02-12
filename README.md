@@ -28,13 +28,15 @@ To use the recommended configuration for this plugin, add `plugin:srp-hints/reco
 }
 ```
 
+More details for the recommended configuration can be found [here](https://github.com/eliasm307/eslint-plugin-srp-hints/blob/main/docs/configs/recommended.md).
+
 ## Usage with Custom Rules
 
 Add `srp-hints` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-	"plugins": ["srp-hints"]
+  "plugins": ["srp-hints"]
 }
 ```
 
@@ -42,9 +44,9 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-	"rules": {
-		"srp-hints/function-description": 10
-	}
+  "rules": {
+    "srp-hints/function-description": 10
+  }
 }
 ```
 
