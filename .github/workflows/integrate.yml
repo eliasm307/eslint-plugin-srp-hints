@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [master, main, release/*]
+
+jobs:
+  test-pull-request:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 15
+      - run: npm install
+      - run: npm run test
