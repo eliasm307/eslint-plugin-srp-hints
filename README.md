@@ -9,7 +9,7 @@ ESLint plugin to offer hints for whether there might be an issue regarding the S
 You'll first need to install [ESLint](http://eslint.org):
 
 ```bash
-npm i eslint --save-dev
+npm install eslint --save-dev
 ```
 
 Next, install `eslint-plugin-srp-hints`:
